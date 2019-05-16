@@ -1,10 +1,9 @@
-server:
-  port: 8874
-  
-spring:
-  application:
-    # 应用名称 小写 区分各个不用应用于调用
-    name: scegcms-config-centre-s
+scegcms:
+  user: lianchao
+  mail: 245073271@qq.com
+  sex: 男
+  url: www.lianchao.lch
+  explain: dev 测试环境配置文件
 
 # 环境配置
 management:
