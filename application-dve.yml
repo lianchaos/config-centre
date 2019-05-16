@@ -1,0 +1,7 @@
+server:
+  port: 8874
+  
+spring:
+  application:
+    # 应用名称 小写 区分各个不用应用于调用
+    name: scegcms-config-centre-s
