@@ -5,3 +5,31 @@ spring:
   application:
     # 应用名称 小写 区分各个不用应用于调用
     name: scegcms-config-centre-s
+
+# 环境配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+      
+#info 信息
+info:
+  app:
+    #从pom.xml中获取
+    name: "@project.name@"
+    version: "@project.version@"
+    spring-boot-version: "@project.parent.version@"
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    packaging: "@project.packaging@"
+    description: "@project.description@"
+    port: ${server.port}
+    url: ${eureka.instance.hostname}:${server.port}      
+      
+      
+      
+      
