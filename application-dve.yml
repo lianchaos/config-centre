@@ -19,7 +19,7 @@ management:
 info:
   app:
     #从pom.xml中获取
-    name: @project.name@
+    name: "@project.name@"
     version: "@project.version@"
     spring-boot-version: "@project.parent.version@"
     groupId: "@project.groupId@"
