@@ -36,3 +36,20 @@ management:
     health:
       show-details: always
 
+<<<<<<< HEAD
+=======
+#info 信息
+info:
+  app:
+    #从pom.xml中获取
+    name: "@project.name@"
+    version: "@project.version@"
+    spring-boot-version: "@project.parent.version@"
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    packaging: "@project.packaging@"
+    description: "@project.description@"
+    href: "@project.url@"
+    port: ${server.port}
+    url: ${eureka.instance.hostname}:${server.port}
+>>>>>>> 0b818c9e45d8e18255273d645c46b7d0e34b5d78
